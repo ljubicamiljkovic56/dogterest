@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    gap: 10px;
+    background-color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+nav a .active {
+    background: black;
+    color: white;
+}
+
+nav a img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo {
+    font-size: 30px;
+    color: red;
+}
+
+input {
+    width: 70%;
+    padding: 15px;
+    border-radius: 20px;
+    background: #e9e9e9;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
